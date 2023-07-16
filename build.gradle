@@ -24,9 +24,9 @@ dependencies {
         officialMojangMappings()
     }
     modImplementation "net.fabricmc:fabric-loader:$loader_version"
-    implementation("com.github.Kingdom-of-The-Moon.LuaJ:luaj-core:$luaj-figura")
-    implementation("com.github.Kingdom-of-The-Moon.LuaJ:luaj-jse:$luaj-figura")
-    modImplementation "com.github.Kingdom-of-The-Moon:FiguraRewriteRewrite:${figura_build_version}"
+    implementation("${figura_repo_path}.LuaJ:luaj-core:$luaj-figura")
+    implementation("${figura_repo_path}.LuaJ:luaj-jse:$luaj-figura")
+    modImplementation "${figura_repo_path}:Figura:${figura_build_version}"
 }
 
 processResources {
