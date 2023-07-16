@@ -1,6 +1,9 @@
 # I stole this from figua :woozy:
 
 name: build
+permissions:
+  contents: write
+  packages: write
 on:
   push:
     paths-ignore:
