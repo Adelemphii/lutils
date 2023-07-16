@@ -3,7 +3,11 @@
   "id": "lutils",
   "schemaVersion": 1,
   "name": "LUtils",
-
+  "description": "An addon mod for Figura.",
+  "contact": {
+    "issues": "https://github.com/Adelemphii/lutils/issues",
+    "sources": "https://github.com/Adelemphii/lutils"
+  },
   "entrypoints": {
     "figura_api": [
       "org.lexize.lutils.LUtils"
