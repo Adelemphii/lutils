@@ -53,6 +53,6 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: build/libs/Dev_build.zip
+          asset_path: build/libs/Dev_build
           asset_name: LUtils-${{steps.version.outputs.version}}-1.18.2.zip
           asset_content_type: application/zip
